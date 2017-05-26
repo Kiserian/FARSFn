@@ -6,5 +6,5 @@ cache: packages
 env:
   global:
     - WARNINGS_ARE_ERRORS=0
-    - R_BUILD_ARGS=--no-manual
-    - R_CHECK_ARGS=--no-manual --as-cran
+    - R_BUILD_ARGS=--no-build-vignettes
+    - R_CHECK_ARGS=--no-build-vignettes --as-cran
