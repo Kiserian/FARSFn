@@ -1,3 +1,1 @@
-library(testthat)
-library(FARSFn)
-test_check("FARSFn")
+testthat::test_check("FARSFn")

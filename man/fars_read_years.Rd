@@ -21,15 +21,15 @@ number of incidents per month and year.
 }
 \details{
 This function uses the elements on the vector or list \code{years}
-to create filenames through \link{make_filename()} and read each file with
-\link{fars_read()}. Then selects the month and year columns of the data.
+to create filenames through \code{\link{make_filename}} and read each file with
+\code{\link{fars_read_years}}. Then selects the month and year columns of the data.
 A mechanism to detect invalid years is implemented to display
 warnings when invalid values are used as input.
 }
 \examples{
-\dontrun{a <- c(1998, 2001, 2005)
-data <- fars_read_years(a)}
-\dontrun{ a <- list(1998, 2001, 2005)
-data <- fars_read_years(a)}
+\dontrun{a <- c(1998, 2001, 2005)}
+\dontrun{data <- fars_read_years(a)}
+\dontrun{a <- list(1998, 2001, 2005)}
+\dontrun{data <- fars_read_years(a)}
 
 }

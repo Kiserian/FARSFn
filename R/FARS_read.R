@@ -20,9 +20,6 @@
 #'    -read_csv: reads the data on the wd, to the environment.
 #'    -tbl_df: transforms readed data into a tbl.
 #'
-#'@import dplyr
-#'@importFrom readr read_csv
-#'
 #'@export
 fars_read <- function(filename) {
         if(!file.exists(filename))

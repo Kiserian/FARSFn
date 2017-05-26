@@ -7,7 +7,7 @@
 #'@param year A numeric value to indicate the year of the data to plot.
 #'
 #'@details The function first builds the name of the data file to be read
-#'via \link{make_filename()}, and then reads the data with \link{fars_read()}.
+#'via \code{\link{make_filename}}, and then reads the data with \code{\link{fars_read}}.
 #'The state code is converted to an integer, and then is compared to the states
 #'present in the data. A mechanism for errors is implemented, the first
 #'detects invalid state numbers. Then the function filters the data by the states,

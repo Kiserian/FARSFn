@@ -2,6 +2,7 @@ Package: FARSFn
 Type: Package
 Title: Processing and mapping functions for FARS data
 Version: 0.1.0
+Imports: dplyr, magrittr, tidyr, maps, readr, testthat
 Author: Carlos Cáceres
 Maintainer: Carlos Cáceres <lordkiser@gmail.com>
 Description: This is a light package, with the purpose of providing standard and easy-to-use functions to process, manipulate and map data from the *Fatality Analysis Reporting System* managed by the *US National Highway Traffic Safety Administration*.
